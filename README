@@ -1,0 +1,23 @@
+================
+MODULAR CALENDAR
+================
+
+A highly extensible, easy to use, database-driven PHP calendar for your website.
+Once installed, you must modify config/Settings.php for the calendar to access 
+your database.
+
+=========
+FEATURES
+=========
+1. Database Abstraction Layer (see resources/cal-DBAL.inc) for finer control of database queries
+2. GUI Abstraction Layer (see resources/cal-GUI.inc) for finer control of calendar rendering
+3. Extensible Management Interface and Classes (see resources/management.inc) for CRUD transactions anywhere in your site
+4. Customizable views (day, week, month, upcoming, featured, and term views are provided by default).
+5. Customizable themes (modify themes/default.css or duplicate it and create your own) 
+
+== NOTE ==
+The Plugin Calendar GUI is read-only. It does not provide any way to add or remove events.
+However, the default managers make this easy to do programmatically. This is especially useful if
+you have an existing system, or you want to able to add events from other pages.
+
+See index.php for an example of invoking the calendar.

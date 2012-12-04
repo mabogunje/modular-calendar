@@ -1,0 +1,48 @@
+/* CSS Document
+  Author: Damola Mabogunje
+  Date: 02/19
+  Use: This is the default stylesheet for the calendar.
+*/
+
+/* Basic Styles for calendar */
+.calendar { background:#FFFFFF; border-collapse:collapse; border-top:none; }
+.calendar a:link { text-decoration:none; }
+.calendar a:visited{ color:#666666; }
+
+.title { background: #D3FDDD; }
+.title a:link{ text-decoration:none; }
+
+.cell { border:1px solid; }			
+.chead { text-align:right; border-bottom:1px solid; color:#999999; font-weight:600; text-decoration:none; }
+.chead a:link { color:#999999; text-decoration:none; }
+.chead a:visited { color:#999999; text-decoration:none; }
+.cbody { }
+.highlight { background:#D3E0FD; }
+
+.controls { margin:0; padding:0; list-style:none; display:inline; text-align:justify; }
+
+.control { display:inline; padding:1px; border:1px solid; border-bottom:none; background:#90D5A0; }
+.control a:link { text-decoration:none; }
+.control a:hover { text-decoration:none; }
+.control a:visited { text-decoration:none; }
+
+.sControl { display:inline; padding:1px; border-top:#A8E77E 2px solid; background:#D3FDDD ; }
+.sControl a:link { text-decoration:none; }
+.sControl a:hover { text-decoration:none; }
+.sControl a:visited { text-decoration:none; }
+
+/* Event Styles for Calendar */
+.event { background:#FFFF00; font:message-box; }
+.event:hover { background:#66FF99; color:#006666; font:message-box; }
+
+.eventHeader { background:#006666; color:#FFFF00; font:caption; }
+
+.eventCaption { background:#006666; color:#FFFF00; text-align:center; font:large; text-decoration:none; }
+.eventCaption:hover { background:#66FF33; color:#006600; }
+
+.eventDetail { font:small italic lighter; text-align:right; color:#000000; }
+
+.eventBlock { background:#FFFF00; border:#000000 thin solid;}
+.eventBlock:hover { background:#FF9900; }
+
+.featured { background:url(../../Calendar_class/images/corner.gif) no-repeat bottom right #FFFF99; height: 100px; width: 200px; font:menu; display:table-cell; }
