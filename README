@@ -9,15 +9,15 @@ your database.
 =========
 FEATURES
 =========
-1. Database Abstraction Layer (see resources/cal-DBAL.inc) for finer control of database queries
-2. GUI Abstraction Layer (see resources/cal-GUI.inc) for finer control of calendar rendering
-3. Extensible Management Interface and Classes (see resources/management.inc) for CRUD transactions anywhere in your site
-4. Customizable views (day, week, month, upcoming, featured, and term views are provided by default).
-5. Customizable themes (modify themes/default.css or duplicate it and create your own) 
+1. Database Abstraction Layer (see resources/cal-DBAL.inc)
+2. GUI Abstraction Layer (see resources/cal-GUI.inc)
+3. Extensible Management Interface and Classes (see resources/management.inc)
+4. Customizable views (day, week, month, upcoming, featured, and term views are provided).
+5. Customizable themes (modify or duplicate themes/default.css to create your own) 
 
 == NOTE ==
 The Plugin Calendar GUI is read-only. It does not provide any way to add or remove events.
 However, the default managers make this easy to do programmatically. This is especially useful if
-you have an existing system, or you want to able to add events from other pages.
+you have an existing database, or you want to able to add events from other pages.
 
 See index.php for an example of invoking the calendar.
