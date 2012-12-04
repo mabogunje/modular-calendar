@@ -17,7 +17,7 @@ FEATURES
 
 == NOTE ==
 The Plugin Calendar GUI is read-only. It does not provide any way to add or remove events.
-However, the default managers make this easy to do programmatically. This is especially useful if
-you have an existing database, or you want to able to add events from other pages.
+However, the default managers make this easy to do programmatically. 
+(Especially useful if you have an existing database, or want to manage the calendar from other pages)
 
 See index.php for an example of invoking the calendar.
